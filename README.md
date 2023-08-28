@@ -1,2 +1,2 @@
 # Coming soon! 
-# The relevant code and the pretrained model of "Cracking the evolutionary code of virus with large language models" will be available here!
+# The relevant code and the pretrained model of "Evolution-guided large language model is a predictor of virus mutation trends" will be available here!
