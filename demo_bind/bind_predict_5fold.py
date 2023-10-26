@@ -275,7 +275,7 @@ if __name__ == '__main__':
             print('fold',model_i)
 
             model_path=model_dir.format(model_i)
-            model.load_state_dict(torch.load(model_path)['state_dict'])
+            model.load_state_dict(torch.load(model_path, map_location=device)['state_dict'])
 
             y_cls = []
             y_reg = []
