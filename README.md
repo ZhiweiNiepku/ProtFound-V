@@ -140,8 +140,6 @@ It takes less than 10 minutes to install python dependencies for downstream expe
 
 We provide a quick demo for the binding affinity prediction experiment to show the learning and predicting ability of ProtFound-V. The dataset used here is single-site mutation benchmark.
 
-
-
 - Training
 
 Download the extracted sequence feature of the training and testing data.
@@ -159,6 +157,8 @@ Run `bind_train_5fold.py` to do 5 fold cross validation using training data.
 python bind_train_5fold.py > train_output.txt 2>&1
 ```
 
+[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ZhiweiNiepku/ProtFound-V/blob/main/examples/ProtFound_V_QuickStart_train.ipynb)
+
 - Testing
 
 Use training result to predict the binding affinity of the blind test set. Besides, we provide our training checkpoints to make a quick prediction. 
@@ -167,6 +167,8 @@ Use training result to predict the binding affinity of the blind test set. Besid
 # run prediction
 python bind_predict_5fold.py > test_result.txt 2>&1
 ```
+
+[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ZhiweiNiepku/ProtFound-V/blob/main/examples/ProtFound_V_QuickStart_predict.ipynb)
 
 The expected outputs are as follows.
 
