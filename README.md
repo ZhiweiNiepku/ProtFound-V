@@ -2,6 +2,10 @@
 
 The official code repository of "Evolution-guided large language model is a predictor of virus mutation trends".
 
+[![Build Status](https://www.travis-ci.org/ZhiweiNiepku/ProtFound-V.svg?branch=master)](https://www.travis-ci.org/ZhiweiNiepku/ProtFound-V)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10043360.svg)](https://zenodo.org/doi/10.5281/zenodo.10038909)
+
+
 - [Overview](#overview)
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
@@ -197,12 +201,11 @@ We provide the extracted protein features as well as the pretrained checkpoints 
 
 | Section                                  | Download Link                                                | Content                                                      |
 | ---------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Pretrained checkpoint**                | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7417029.svg)](https://zenodo.org/doi/10.5281/zenodo.7417028) | Our pretrained checkpoint                                    |
-| **QuickStart**                           | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10039065.svg)](https://zenodo.org/doi/10.5281/zenodo.10038909) | Extracted features and trained checkpoints.                  |
-| **Single-site mutation benchmark**       | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10039065.svg)](https://zenodo.org/doi/10.5281/zenodo.10038909) | Raw RBD sequences and extracted features.                    |
-| **Multi-site mutation benchmark**        | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10039065.svg)](https://zenodo.org/doi/10.5281/zenodo.10038909) | Raw RBD sequences and extracted features.                    |
-| **Determining high-risk mutation sites** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10039065.svg)](https://zenodo.org/doi/10.5281/zenodo.10038909) | Raw protein sequences, extracted features, and trained checkpoints. |
-
+| **Pretrained checkpoint**                | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10043360.svg)](https://zenodo.org/records/10043360/files/checkpoint_protfound_v.ckpt?download=1) | Our pretrained checkpoint.                                    |
+| **QuickStart**                           | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10043360.svg)](https://zenodo.org/records/10043360/files/QuickStart.tar.gz?download=1) | Extracted features and trained checkpoints.                  |
+| **Single-site mutation benchmark**       | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10043360.svg)](https://zenodo.org/records/10043360/files/Single-site_mutation_benchmark.tar.gz?download=1) | Raw RBD sequences and extracted features.                    |
+| **Multi-site mutation benchmark**        | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10043360.svg)](https://zenodo.org/records/10043360/files/Multi-site_mutation_benchmark.tar.gz?download=1) | Raw RBD sequences and extracted features.                    |
+| **Determining high-risk mutation sites** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10043360.svg)](https://zenodo.org/records/10043360/files/Determining_high-risk_mutation_sites.tar.gz?download=1) | Raw protein sequences, extracted features, and trained checkpoints. |
 
 
 ## Binding affinity training and predicting
