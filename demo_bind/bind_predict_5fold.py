@@ -230,7 +230,7 @@ if __name__ == '__main__':
     BATCH_SIZE = 16
     SEQ_LEN=201
 
-    model_dir="data/QuickStart/data/ckpt/model_{}.pth.tar"
+    model_dir="data/QuickStart/ckpt/model_{}.pth.tar"
 
     model = SoluModel(SEQ_LEN)
     model = model.to(device)
