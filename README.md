@@ -3,11 +3,11 @@
 The official code repository of "Evolution-guided large language model is a predictor of virus mutation trends".
 
 - [Overview](#overview)
-- [System Requirements](#System Requirements)
-- [Installation Guide](#Installation Guide)
-- [Repo contents](#Repo contents)
-- [Demo and Instructions for Use](#Demo and Instructions for Use)
-- [License](#License)
+- [System Requirements](#system-requirements)
+- [Installation Guide](#installation-guide)
+- [Repo contents](#repo-contents)
+- [Demo and Instructions for Use](#demo-and-instructions-for-use)
+- [License](#license)
 
 # Overview
 
@@ -21,7 +21,7 @@ We introduce ProtFound-V, an evolution-inspired deep-learning framework designed
 
 The backbone pretraining and the protein feature extraction (inference on backbone) are conducted on **Ascend-910 (32GB)**.
 
-#### !! NOTE: The Ascend NPU environment is only for protein feature extraction. We provide the extracted features of the sequences used for experiments below. You can use the extracted results directly for downstream applications.
+**!! NOTE: The Ascend NPU environment is only for protein feature extraction. We provide the extracted features of the sequences used for experiments below. You can use the extracted results directly for downstream applications.**
 
 The downstream predictions using extracted features can be conducted on a standard computer with NVIDIA GPU with no less than 8G memory and enough RAM to run training and inference. The downstream experiments are conducted on one Tesla V100 (32GB).
 
@@ -37,7 +37,7 @@ The downstream experiments are conducted on Ubuntu 16.04.1.
 
 For the backbone pretraining and protein feature extraction (inference on backbone), the required python environments are as follows.
 
-#### !! NOTE: This environment is only for protein feature extraction. We provide the extracted features of the sequences used for experiments below. You can use the extracted results directly for downstream applications.
+**!! NOTE: This environment is only for protein feature extraction. We provide the extracted features of the sequences used for experiments below. You can use the extracted results directly for downstream applications.**
 
 ```
 python==3.8
@@ -168,7 +168,7 @@ python bind_predict_5fold.py > test_result.txt 2>&1
 
 The expected outputs are as follows.
 
-| AUC   | Acc   | F1-Score | Precision | Recall | MSE   | Corr  |
+| AU-ROC   | Acc   | F1-Score | Precision | Recall | MSE   | Corr  |
 | ----- | ----- | -------- | --------- | ------ | ----- | ----- |
 | 92.98 | 91.11 | 91.58    | 87.43     | 96.30  | 0.058 | 0.870 |
 
@@ -176,7 +176,7 @@ It takes only several hours to train on training data, and several seconds to pr
 
 ## Protein sequence feature extraction
 
-#### !! NOTE: We provide the extracted features of the sequences used for experiments at the end of this section. You can use the extracted results directly for downstream applications and skip this section.
+**!! NOTE: We provide the extracted features of the sequences used for experiments at the end of this section. You can use the extracted results directly for downstream applications and skip this section.**
 
 Use our pretrained backbone to extract feature embeddings of protein sequences for downstream application. The pretrained checkpoint can be downloaded in the table below.
 
